@@ -35,9 +35,6 @@ app.use(require('./routes'));
 app.use(require('./routes/autenticacion'));
 app.use('/links', require('./routes/links'));
 
-
-
-
 //archivos publicos public
 
 app.use(express.static(path.join(__dirname, 'public')));
