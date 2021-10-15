@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background: url(../imagenes/fondo.png); 
+    background: url(../imagenes/fondo.png), #524397;
+    background: url(../imagenes/fondo.png), -webkit-gradient(linear, right top, from(#524397), to(#24dc7a));
+    background: url(../imagenes/fondo.png), linear-gradient(to left, #524397, #24dc7a);
+   
+}
+
+.log-Box {
+    width: 320px;
+    height: 420px;
+    background-color: rgb(77, 75, 75);
+    color: wheat;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+}
+.log-Box .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 70px);
+}
+.log-Box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.log-Box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.log-Box input {
+    width: 100%;
+    margin-bottom: 5%;    
+}
+
+.log-Box input[type="text"],
+.log-Box input[type="Contraseña"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: gainsboro;
+    font-size: 16px;
+}
+.log-Box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(86, 86, 163);
+    color: azure;
+    font-size: 18px;
+    border-radius: 20px 20px;
+}
+
+.log-Box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.log-Box a:hover {
+    color: aliceblue;
+}
